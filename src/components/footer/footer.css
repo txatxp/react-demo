@@ -1,0 +1,17 @@
+.footer-box {
+	height: 50px;width:100%;position:fixed;
+	bottom:0px;left:0px;background-color:#13adff;
+	line-height: 50px;font-size: 16px;color:#fff;
+}
+.footer-box ul,.footer-box li {
+	margin:0px;padding:0px;list-style-type: none;
+}
+.footer-box ul {
+	display:-webkit-box;
+}
+.footer-box li {
+	-webkit-box-flex:1;line-height: 50px;text-align:center;
+}
+.footer-box li.active {
+	background:rgba(255,255,255,0.5);
+}
